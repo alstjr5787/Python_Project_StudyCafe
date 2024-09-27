@@ -6,9 +6,10 @@ In this python project, I have made an attendance system which takes attendance 
 
 ## TECHNOLOGY USED:
 
-1. **tkinter**
-1. **OpenCV**
-1. **CSV, Numpy, Pandas, datetime**
+1. **tkinter** - Used for the whole GUI
+2. **OpenCV** - Used for taking images and face recognition (`cv2.face.LBPHFaceRecognizer_create()`)
+3. **CSV, Numpy, Pandas, datetime** - Used for other purposes
+
 
 
 FEATURES:
