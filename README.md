@@ -13,7 +13,15 @@ In this project, I developed this application to enable users to utilize the stu
 
 FEATURES:
 
-The feature of this study café program is that there are no fixed seats. When a seat is reserved, the usage time automatically ends after 2 hours. This method was chosen to prevent one person from consistently using a specific seat for an extended period. If a user wants to continue using a seat, they must rebook it after the time has expired. Additionally, the program can receive real-time data from the server to check which seats are available and when the scheduled end times are.
+The feature of this study café program is that there are no fixed seats. When a seat is reserved, the usage time automatically ends after 2 hours. This method was chosen to prevent one person from consistently using a specific seat for an extended period. If a user wants to continue using a seat, they must rebook it after the time has expired. Additionally, the program can receive real-time data from the server to check which seats are available and when the scheduled end times are. 
+Administrators can easily manage user account statuses using the admin program.
+
+
+
+
+
+
+
 
 # SCREENSHOTS
 ![image](https://github.com/user-attachments/assets/e02826df-62ce-46f6-a27e-7a419fbfcabc)
