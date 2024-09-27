@@ -18,28 +18,3 @@ The feature of this study café program is that there are no fixed seats. When a
 # SCREENSHOTS
 ![image](https://github.com/user-attachments/assets/e02826df-62ce-46f6-a27e-7a419fbfcabc)
 
-### Table: `cafe_seat`
-
-```sql
-CREATE TABLE `cafe_seat` (
-  `id` int NOT NULL,
-  `start_time` datetime NOT NULL,
-  `status` enum('true','false') NOT NULL,
-  `scheduled_end_time` datetime DEFAULT NULL,
-  `user_id` varchar(50) DEFAULT NULL
-);
-```
-### Table: `cafe_user`
-
-```sql
-CREATE TABLE `cafe_user` (
-  `id` int NOT NULL,
-  `member_id` varchar(255) NOT NULL,
-  `member_password` varchar(255) NOT NULL,
-  `name` varchar(255) NOT NULL,
-  `phone_number` varchar(20) NOT NULL,
-  `account_status` varchar(20) DEFAULT 'active',
-  `suspension_end_date` datetime DEFAULT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
-```
-
