@@ -1,6 +1,6 @@
 # Python_Project_User_Admin
 
-This is a Python GUI-based attendance system that allows users to select and use seats in a study café with features such as signup, login, seat reservation, and checkout.
+This system is a Python GUI-based system that includes features such as signup, login, seat reservation, and checkout for an unmanned study café.
 
 In this project, I developed this application to enable users to utilize the study café autonomously. Users can register and log into the system, and they can reserve or release seats through an intuitive GUI built with PyQt. This application communicates with a backend server to handle user data and seat status.
 
