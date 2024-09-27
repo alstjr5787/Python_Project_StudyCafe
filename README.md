@@ -20,8 +20,6 @@ The feature of this study café program is that there are no fixed seats. When a
 
 ### Table: `cafe_seat`
 
-The `cafe_seat` table stores information about seat reservations in the study café. Below is the structure of the table:
-
 ```sql
 CREATE TABLE `cafe_seat` (
   `id` int NOT NULL,
@@ -30,6 +28,18 @@ CREATE TABLE `cafe_seat` (
   `scheduled_end_time` datetime DEFAULT NULL,
   `user_id` varchar(50) DEFAULT NULL
 );
+```
+### Table: `cafe_user`
 
-
+```sql
+CREATE TABLE `cafe_user` (
+  `id` int NOT NULL,
+  `member_id` varchar(255) NOT NULL,
+  `member_password` varchar(255) NOT NULL,
+  `name` varchar(255) NOT NULL,
+  `phone_number` varchar(20) NOT NULL,
+  `account_status` varchar(20) DEFAULT 'active',
+  `suspension_end_date` datetime DEFAULT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+```
 
